@@ -1,0 +1,42 @@
+.home-body {
+    height: 500px;
+    width: 620px;
+    margin: 20px 35px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .3s;
+    border: 1px solid white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10);
+}
+
+.home-body:hover {
+    border: 1px solid #9EE970;
+    transform: translateY(-6px);
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.08),
+        0 0 6px rgba(158, 233, 112, 0.15);
+}
+
+.home-body img {
+    height: 400px;
+    width: 100%;
+}
+
+.button-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.button-card p {
+    margin-top: 8px;
+    color: #5C5D5C;
+}
+
+button {
+    background-color: #9EE970;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}

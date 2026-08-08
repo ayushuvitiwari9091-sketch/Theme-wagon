@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.header_bg {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom-left-radius: 50% 120px;
+    border-bottom-right-radius: 50% 120px;
+}
+
+.shape {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    top: 258px;
+    left: 0;
+    border-bottom-left-radius: 50% 120px;
+    border-bottom-right-radius: 50% 120px;
+}
+
+.themewagon {
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: 43%;
+}
+
+.home-text {
+    position: absolute;
+    top: 135px;
+    left: 18%;
+}
+
+.home-hero-text {
+    color: white;
+    position: absolute;
+    top: 420px;
+    left: 19%;
+    font-size: 33px;
+}
+
+.hero-point-text{
+    display: flex;
+    position: absolute;
+    gap: 80px;
+    color: white;
+    top: 470px;
+    font-size: 14px;
+}
+
+.hero-point-text>ul{
+    display: flex;
+    gap: 80px;
+}
+
+.green-color{
+    color: #9EE970;
+}
+
+.Purchase-btn{
+    padding: 15px 48px;
+    position: absolute;
+    top: 550px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #9EE970;
+    font-weight: bold;
+    transition: .2s ease;
+}
+
+.Purchase-btn:hover{
+    background-color: #9ae06e;
+}
+
+li::marker{
+    font-size: 40px;
+    color: #9EE970;
+}

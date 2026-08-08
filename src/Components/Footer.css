@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer_bg {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.shape-footer {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer h1{
+    position: absolute;
+    font-size: 45px;
+    top: 100px;
+    color: white;
+}
+
+.footer p{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 160px;
+}
+
+.footer button{
+    position: absolute;
+    top: 200px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
