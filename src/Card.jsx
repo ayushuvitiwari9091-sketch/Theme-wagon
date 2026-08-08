@@ -1,19 +1,20 @@
 import React from 'react'
 import './CSS/Card.css'
 
-const Card = ({ id, coursename , weblogo , para  }) => {
+const Card = ({ products }) => {
+    
     return (
         <>
             <div className="home-body">
 
-                <img src={weblogo} alt="" />
+                <img src={products.weblogo} alt="" />
 
                 <div className="button-card">
 
                     <div>
-                        <h2>{coursename}</h2>
+                        <h2>{products.coursename}</h2>
 
-                        <p>{para}</p>
+                        <p>{products.para}</p>
 
                     </div>
 
